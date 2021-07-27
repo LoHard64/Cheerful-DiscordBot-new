@@ -4,12 +4,12 @@ module.exports = {
 
   async run (client, message, args) {
 
-    console.log('\x1b[33m', "Note: Menghapus pesan hanya untuk chat yang sudah berumur 14 hari");
+    console.log('\x1b[33m', "Clearing Server's Chat...");
     
     const amount = args.join();
 
     if(!amount) return message.reply('Sebutkan banyaknya chat untuk di hapus')
-    message.channel.send('Note: Menghapus pesan hanya untuk chat yang sudah berumur 14 hari');
+    message.channel.send('Note: Menghapus chat hanya untuk chat yang belum berumur 14 hari');
 
     if(amount > 100) return message.reply(`kamu tidak bisa menghapus lebih dari 100 chat sekaligus`)
 
