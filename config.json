@@ -1,5 +1,5 @@
 {
-    "token": "[Discord Bot Token Here]",
+    "token": "[Your Discord Bot Token Here]",
     "everyoneMention": false,
     "hostedBy": true,
     "default_prefix": "+",
